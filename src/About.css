@@ -1,0 +1,110 @@
+.About {
+  position: absolute;
+  color: white;
+  font-weight: bolder;
+  background: url("https://media3.giphy.com/media/l1KVa5a0INbTtprd6/giphy.gif") no-repeat center center fixed;
+  background-size: contain;
+  list-style: none;
+  position: relative;
+  size: 100%;
+  text-align: center;
+  /* justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center; */
+  text-shadow: 2px 2px 2px black;
+}
+
+.About-list {
+  list-style: none;
+  margin-right: 2%;
+  position: relative;
+  size: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+
+.About-languages {
+  font-family: cursive;
+}
+
+.About-content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  font-size: 200%;
+  width: 100%;
+  size: 100%;
+  font-style: italic;
+  
+}
+
+.About-pointer {
+  cursor: pointer;
+}
+
+.About-pointer:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.About-box {
+  border: 3px solid whitesmoke;
+  border-radius: 5px;
+  /* position: relative; */
+  width: 30%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  margin-left: 35%;
+  font-size: bolder;
+}
+
+.About-end {
+  margin-left: 35%;
+  padding-bottom: 5%;
+}
+
+.About-title {
+  font-family: cursive;
+}
+
+.About-contact {
+  transition: all .2s ease-in-out;
+}
+
+.About-contact:hover {
+  /* color: rgba(223, 187, 187, 0.904); */
+  color: white;
+  text-shadow: 2px 2px 2px goldenrod;
+  font-size: 200%;
+  transform: scale(1.1);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.content4 {
+  background: rgba(43, 41, 41, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  font-family: cursive;
+}
+
+.content4a {
+  transition: all .2s ease-in-out;
+  text-shadow: 1px 1px 1px rgb(114, 113, 113);
+}
+
+.content4a:hover {
+  /* color: rgba(232, 255, 219, 0.904); */
+  color: white;
+  font-size: 200%;
+  transform: scale(1.1);
+  cursor: pointer;
+}

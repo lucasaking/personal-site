@@ -1,0 +1,66 @@
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  /* color: #f1f1f1; */
+  width: 100%;
+  font-family: cursive;
+  color: linen;
+  text-shadow: 2px 2px 2px black;
+  /* padding: 20px; */
+}
+
+.content2 {
+  position: fixed;
+  top: 10;
+  color: white;
+  text-shadow: 1px 1px 0px lightgray;
+  background: rgba(56, 54, 54, 0.5);
+  /* color: #f1f1f1; */
+  width: 100%;
+  font-family: cursive;
+  
+  /* padding: 20px; */
+}
+
+.content5 {
+  /* position: fixed;
+  top: 10;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%; */
+  font-family: cursive;
+  transition: all .2s ease-in-out;
+  /* padding: 20px; */
+}
+
+.content6 {
+  transition: all .2s ease-in-out;
+}
+
+.content5:hover {
+  /* color: rgba(221, 78, 78, 0.336); */
+  /* color: rgba(255, 238, 0, 0.233); */
+  font-size: 250%;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.content6:hover {
+  /* color: rgba(255, 255, 255, 0.637); */
+  /* color: gold; */
+  font-size: 250%;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+

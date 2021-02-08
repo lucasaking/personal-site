@@ -1,0 +1,30 @@
+
+.Card4 {
+  /* border: 3px solid white; */
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position:center;
+  border-radius: 20px;
+  position: absolute;
+  max-width: 48%;
+  max-height: 48%;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  will-change: transform, opacity;
+  margin-left: 50%;
+}
+
+/* project 1 */
+.ffront,
+.fback {
+  /* background-size: 100%; */
+}
+
+.fback {
+  background-image: url("./images/screenshot_00_fe.png");
+}
+
+.ffront {
+  background-image: url("./images/lights-out.png");
+}

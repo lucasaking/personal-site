@@ -1,0 +1,158 @@
+.Contact {
+  /* background-color: white; */
+  color: black;
+}
+
+.Contact-content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  font-size: 300%;
+  width: 100%;
+  size: 100%;
+}
+
+.Contact-github {
+  height: 10%;
+  width: 10%;
+}
+
+.Contact-github-logo {
+  height: 8%;
+  width: 8%;
+  transition: all .2s ease-in-out;
+}
+
+.Contact-github-logo:hover {
+  font-size: 200%;
+  transform: scale(1.25);
+  cursor: pointer;
+}
+
+.Contact-github-title {
+  color: white;
+  text-shadow: 1px 1px 1px rgb(114, 113, 113);
+  font-size: 30px;
+}
+
+.Contact-linkedin {
+  height: 15%;
+  width: 15%;
+  margin: 3%;
+  transition: all .2s ease-in-out;
+}
+
+.Contact-linkedin:hover {
+  font-size: 200%;
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+.Contact-title {
+  border: 2px solid black;
+  /* background: url("https://media3.giphy.com/media/l1KVa5a0INbTtprd6/giphy.gif"); */
+    /* background: url("https://media4.giphy.com/media/l0Iy1gt2LY3ONr4C4/giphy.gif"); */
+  background-size: contain;
+  color: black;
+}
+
+.Contact-category {
+  position: fixed;
+  top: 10;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  /* font-family: cursive; */
+  /* padding: 20px; */
+}
+
+.Contact-name {
+  font-family: cursive;
+}
+
+.Contact-body {
+  /* border: 2px solid white; */
+  border-radius: 5px;
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  /* background-image: url("https://cdn.wallpapersafari.com/88/80/Hs4QN2.gif"); */
+  background-size: contain;
+  max-height: 50%;
+  font-size: 70%;
+  color: white;
+  text-shadow: 1px 1px 1px rgb(114, 113, 113);
+  /* color: white; */
+}
+
+.Contact-email {
+  text-decoration: underline;
+}
+
+.Contact-me {
+  transition: all .2s ease-in-out;
+    color: linen;
+  text-shadow: 1px 1px 1px rgb(114, 113, 113);
+}
+
+.Contact-me:hover {
+  /* color: rgba(223, 187, 187, 0.904); */
+  font-size: 200%;
+  transform: scale(1.1);
+  color: white;
+  cursor: pointer;
+}
+
+.Contact-resources {
+  display: inline-block;
+}
+
+.Contact-background {
+  /* background: url("./comp1.jpg") */
+}
+
+.Contact-node {
+  margin-bottom: 5%;
+  /* size: 20px; */
+  /* max-height: 50%;
+  max-width: 100%; */
+  /* height: 10%; */
+  /* border: 2px solid gray; */
+}
+
+.Contact-other {
+  /* background: url("https://cdn.wallpapersafari.com/88/80/Hs4QN2.gif"); */
+}
+
+.Contact-break {
+  padding-bottom: 10%;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  /* position: absolute; */
+  /* z-index: -1; */
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  font-family: cursive;
+  /* padding: 20px; */
+}
+
+.content3 {
+  /* position: fixed; */
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  font-family: cursive;
+  /* padding: 20px; */
+}

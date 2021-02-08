@@ -1,0 +1,288 @@
+.Development {
+  /* justify-content: space-around; */
+  padding-top: 4%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* font-size: 150%; */
+  color: white;
+}
+
+.Development-Body {
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  font-size: 200%;
+  font-family: monospace;
+}
+
+.Development-Title {
+  border: 2px solid white;
+  border-radius: 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  /* font-size: 30px; */
+  /* background-image: url("https://cdn.wallpapersafari.com/88/80/Hs4QN2.gif"); */
+  background-size: contain;
+}
+
+.Development-Button {
+  /* height: auto;
+  width: 50%;
+  border: 2px solid black;
+  color: white;
+  background-color: red; */
+  position: fixed;
+  bottom: 0;
+  margin-left: -50%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  font-family: cursive;
+}
+
+.Development-Link {
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 100%;
+  /* color:  rgb(245, 115, 115); */
+  color: rgb(201, 201, 248);
+}
+
+.Development-Link:hover {
+  /* text-decoration: none; */
+  size: 100%;
+  text-decoration: underline;
+  color:  rgb(245, 115, 115);
+}
+
+.Development-Language {
+  font-size: 35px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  font-family: cursive;
+}
+
+.Development-BE {
+  text-decoration: underline;
+  display: block;
+}
+
+.Development-Project-Desktop {
+  color: white;
+  font-size: 200%;
+  font-weight: bolder;
+  background-color: black;
+}
+
+.Development-youtube {
+  height: 20%;
+  width: 20%;
+}
+
+.Development-content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 300%;
+  width: 100%;
+  size: 100%;
+  /* padding: 20px; */
+}
+
+.Development-contenta {
+  transition: all .2s ease-in-out;
+}
+
+.Development-contenta:hover {
+  /* color: rgba(223, 187, 187, 0.904); */
+  font-size: 200%;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.Development-desktop {
+  color: white;
+  font-size: 200%;
+  font-weight: bolder;
+  margin: 1%;
+  /* background-color: black; */
+}
+
+.Development-desktop-link {
+  text-decoration: none;
+  /* color:  rgb(245, 115, 115); */
+  font-size: 200%;
+  color: red;
+}
+
+.Development-games-body {
+  align-content: center;
+  align-self: center;
+  text-align: center;
+  margin-left: 100px;
+}
+
+.Development-span {
+  display: block;
+  font-size: 75%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* letter-spacing: .09%; */
+  padding-bottom: 1%;
+}
+
+.Development-span-underline {
+  display: block;
+  padding-bottom: 1%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: underline;
+}
+
+.Development-span-space {
+  padding-bottom: 1%;
+  display: block;
+  text-decoration: underline;
+}
+
+.Logos {
+  height: 5%;
+  width: 5%;
+}
+
+/* SPACING/TEMPORARY CLASSES */
+
+.lineBlockTitle {
+  margin: 20%;
+  margin-top: -1%;
+  /* margin: 2%;
+  padding: 2%; */
+    /* margin: 20%; */
+  /* padding: 5%; */
+  margin-bottom: 10%;
+  border-bottom: 1px solid lightgray;
+}
+
+.lineBlockStart {
+  margin: 4%;
+  /* padding-top: 1%;
+  padding-bottom: 1%; */
+  border-bottom: 1px solid lightgray;
+}
+
+.lineBlock1 {
+  margin: 2%;
+  padding: 2%;
+  border-bottom: 1px solid lightgray;
+}
+
+.lineBlockCard {
+  max-height: 100%;
+  margin: 10%;
+  padding: 3.5%;
+  /* margin-bottom: 10%; */
+  border-bottom: 1px solid lightgray;
+}
+
+.lineBlockEnd {
+  /* margin: 10%; */
+  padding: 1%;
+  padding-bottom: 4%;
+  /* border-bottom: 1px solid lightgray; */
+}
+
+.lineBlockMid {
+  /* margin: 10%; */
+  /* padding: 3%; */
+  padding-bottom: 6%;
+  /* border-bottom: 1px solid lightgray; */
+}
+
+.lineBlock {
+  /* margin: 10%; */
+  padding: 3%;
+  padding-bottom: 2%;
+  /* border-bottom: 1px solid lightgray; */
+}
+
+.lineBlockFix {
+  /* margin: 10%; */
+  inline-size: 100%;
+  /* margin-top: 10%;
+  margin-left: 5%;
+  margin-right: 10%;
+  margin-bottom: 5%; */
+  /* -webkit-line-break: after-white-space; */
+  transform: translate(50%, -50%);
+  /* margin-top: -10%; */
+  /* border-bottom: 1px solid lightgray; */
+}
+
+
+/* UNDER CONSTRUCTION */
+
+.Development-Project {
+  size:50%;
+  max-width: 45%;
+  max-height: 45%;
+  /* margin-right: 50%; */
+  align-self: center;
+  align-content: center;
+  text-align: center;
+  overflow: hidden;
+  margin-left: 26%;
+  border: 3px solid white;
+  border-radius: 30px;
+  padding: 1%;
+  /* font-size: smaller; */
+  /* box-shadow: 3px 3px 3px 3px rgb(127, 200, 236); */
+}
+
+.Project-1 {
+  background-color: black;
+  size:50%;
+  max-width: 45%;
+  max-height: 45%;
+  margin-right: 50%;
+  /* margin-top: 1%; */
+  overflow: hidden;
+  border: 3px solid white;
+  border-radius: 30px;
+  padding: 1%;
+  /* font-size: smaller; */
+  box-shadow: .5px .5px .5px .5px rgb(127, 200, 236);
+  animation: shadow-pulsate 2s infinite;
+  font-size: 150%;
+  /* animation: shadow-pulsate 2s infinite; */
+}
+
+/* .VFX-1 {
+  font-size: 120%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} */
+
+/* .VFX-2 {
+  font-size: 120%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.VFX-3 {
+  font-size: 120%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} */
+
+.Project-2 {
+  font-size: 150%;
+  background-color: black;
+  overflow: hidden;
+  border: 3px solid white;
+  margin-left: 50%;
+  border-radius: 30px;
+  padding: 1%;
+  box-shadow: .5px .5px .5px .5px rgb(127, 200, 236);
+  animation: shadow-pulsate 2s infinite;
+}
+
+@keyframes shadow-pulsate {
+  /* box-shadow: 3px 3px 3px 3px rgb(127, 200, 236); */
+    0%   { box-shadow: 1px 1px 1px 1px rgba(252, 252, 252, 0); }
+    50%  { box-shadow: 3px 3px 3px 3px rgb(218, 242, 245); }
+    100% { box-shadow: 5px 5px 5px 5px rgba(0, 255, 255, 0); }
+}
