@@ -14,19 +14,19 @@ function Contact() {
   return (
     <div className="Contact">
 
-      <h1 className="content3"><a className="About-pointer" ><b className="Contact-me" onClick={() => history.push("/about")}>CONTACT</b></a></h1>
+      <h1 className="content3"><a className="About-pointer" ><b className="Contact-me" onClick={() => window.open('mailto:lucasking.developer@gmail.com')}>CONTACT</b></a></h1>
 
       {/* <div className="Contact-break"></div> */}
 
       <div className="Contact-body">
 
-        <h1 href="www.youtube.com">Interact with me directly<br/><div className="Contact-email">lucasking.developer@gmail.com</div></h1>
+        <h1>Interact with me directly<br/><div className="Contact-email">lucasking.developer@gmail.com</div></h1>
 
         <div className="Contact-resources">
 
-          <img src={linkedin} className="Contact-linkedin"></img>
+          <a href='https://www.linkedin.com/in/lucas-a-king/' target="_blank"><img src={linkedin} className="Contact-linkedin"></img></a>
 
-          <img src={youtube} className="Contact-linkedin"></img>
+          <a href='https://www.youtube.com/channel/UCFlzeS0RCRznKg5faBfuFDQ' target="_blank"><img src={youtube} className="Contact-linkedin"></img></a>
 
         </div>
 
@@ -36,7 +36,7 @@ function Contact() {
 
         <h3>View Samples</h3>
 
-        <h4><img src={portfolio} className="Contact-github-logo" ></img></h4>
+        <a onClick={() => history.push("/full-stack")}><h4><img src={portfolio} className="Contact-github-logo" ></img></h4></a>
 
       </div>
 
@@ -52,7 +52,7 @@ function Contact() {
 
         <h3>More Code on Github</h3>
 
-        <h4><img src={github} className="Contact-github-logo" ></img></h4>
+        <a href='https://github.com/lucasaking' target="_blank"><h4><img src={github} className="Contact-github-logo" ></img></h4></a>
 
       </div>
 
