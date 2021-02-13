@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Card from "./cards/Card";
 import Card5 from "./cards/Card5";
+import github from "./logos/github-large.png";
 import "./Development.css";
 
 function DevelopmentWebGames() {
@@ -13,7 +14,7 @@ function DevelopmentWebGames() {
 
       <h2 className="Development-Language">Web Development Games</h2>
 
-      <h4 className="Development-Body">Check out Github for more!</h4>
+      <h4 className="Development-Body">Check out <a href='https://github.com/lucasaking' target="_blank" rel="noreferrer"><img src={github} className="Development-contentb" alt="unavailable"></img></a> for more!</h4>
 
       <div className="lineBlockStart"></div>
 

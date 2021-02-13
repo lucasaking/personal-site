@@ -102,12 +102,7 @@
 }
 
 .Contact-me:hover {
-  /* color: rgba(223, 187, 187, 0.904); */
-  /* font-size: 200%;
-  transform: scale(1.1);
   color: white;
-  cursor: pointer; */
-    color: white;
   text-shadow: 2px 2px 2px goldenrod;
   font-size: 200%;
   transform: scale(1.1);

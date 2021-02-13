@@ -12,7 +12,7 @@ function DevelopmentGames() {
 
       <h2 className="Development-Language">Game Design</h2>
 
-      <h4 className="Development-Body">Check out <img src={youtube} className="Development-youtube" alt="unavailable"></img> for more.</h4>
+      <h4 className="Development-Body">Check out <a href='https://www.youtube.com/channel/UCFlzeS0RCRznKg5faBfuFDQ/playlists' target="_blank" rel="noreferrer"><img src={youtube} className="Development-contentc" alt="unavailable"></img></a> for more.</h4>
 
       <div className="lineBlockMid"></div>
 
@@ -28,9 +28,9 @@ function DevelopmentGames() {
 
           <div className="VFX-1">
 
-            <span className="Development-span">GTA - Rebuild</span>
+            <span className="Development-span">GTA - REBUILD 100% Complete</span>
 
-            <a className="Development-desktop-link" href='https://www.youtube.com/' target="_blank" rel="noreferrer">VIDEO DEMO</a>
+            <a className="Development-desktop-link" href='https://www.youtube.com/channel/UCFlzeS0RCRznKg5faBfuFDQ/playlists' target="_blank" rel="noreferrer">COMING SOON</a>
 
           </div>
 
