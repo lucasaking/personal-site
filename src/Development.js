@@ -92,7 +92,7 @@ function Development() {
 
             <span className="Development-span">Similar features/layout to Amazon and a mock styling for demonstration. Using Stripe for purchasing. Fully functioning shopping cart, create an account, login/authorization, store front api, ability to checkout and more.</span>
 
-            <a className="Development-Link" href='https://youtu.be/EyN3Nk67VRw' target="_blank" rel="noreferrer">DEMO</a>
+            <a className="Development-Link" href='https://www.youtube.com/watch?v=bVoePbfV-4Y&list=PLSFU-aws5idp8pcSfTDLhJNsntvQf-0JP&index=3' target="_blank" rel="noreferrer">DEMO</a>
 
           </div>
 
