@@ -1,0 +1,95 @@
+.ContactForm {
+  /* margin-left: 40%; */
+  height: 100%;
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+  display: flex table-column;
+  text-align: center;
+  font-size: 100%;
+  color: white;
+  font-family: cursive;
+  /* position: relative;
+  display: list-item; */
+  /* padding-bottom: 100%; */
+}
+
+/* .ContactForm-me {} */
+
+.ContactFormBtn {
+  margin: 10px;
+  padding: 10px;
+  background-color: #101010d1;
+  color: #f0f2f5;
+  border: 10px solid rgba(0, 0, 0, 0.63);
+  box-shadow: inset 0 0 0 2px #ffffff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: monospace;
+  /* color: black;
+  background-color: white; */
+}
+
+.ContactFormBtn:hover {
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px;
+  background-color: black;
+  border: 10px solid rgba(255, 255, 255, 0.63);
+  color: white;
+}
+
+
+.ContactFormContent {
+  margin: 20px;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #101010d1;
+  color: #f0f2f5;
+  border: 10px solid rgba(16, 16, 16, 0.63);
+  box-shadow: inset 0 0 0 2px #ffffff;
+  box-sizing: border-box;
+}
+
+.alignment {
+  margin-top: 2%;
+  align-content: center;
+  justify-content: center;
+  display: flex table-column;
+  text-align: center;
+}
+
+.field {
+  margin-bottom: 10px;
+}
+
+.field label {
+  display: block;
+  font-size: 100%;
+  color: white;
+}
+
+.field input {
+  display: block;
+  min-width: 250px;
+  line-height: 1.5;
+  font-size: 100%;
+}
+
+/* input[type="submit"] {
+  display: block;
+  padding: 6px 30px;
+  font-size: 14px;
+  background-color: #4460AA;
+  color: #fff;
+  border: none
+} */
+
+.content3 {
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  font-family: cursive;
+}

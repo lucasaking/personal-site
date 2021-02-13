@@ -51,16 +51,22 @@
 .content5:hover {
   /* color: rgba(221, 78, 78, 0.336); */
   /* color: rgba(255, 238, 0, 0.233); */
-  font-size: 250%;
+  color: white;
+  text-shadow: 2px 2px 2px goldenrod;
+  font-size: 200%;
   transform: scale(1.1);
+  text-decoration: underline;
   cursor: pointer;
 }
 
 .content6:hover {
   /* color: rgba(255, 255, 255, 0.637); */
   /* color: gold; */
-  font-size: 250%;
+  color: white;
+  text-shadow: 2px 2px 2px goldenrod;
+  font-size: 200%;
   transform: scale(1.1);
+  text-decoration: underline;
   cursor: pointer;
 }
 

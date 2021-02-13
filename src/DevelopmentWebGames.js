@@ -1,12 +1,10 @@
 import React from "react";
-import { useHistory } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Card from "./cards/Card";
 import Card5 from "./cards/Card5";
 import "./Development.css";
 
 function DevelopmentWebGames() {
-
-  const history = useHistory();
 
   return (
     <div>
@@ -35,7 +33,7 @@ function DevelopmentWebGames() {
 
               <span className="Development-span">A React Pokemon game based on original gameboy game. Choose from 4 starter Pokemon, with the option to choose a random Holographic version of the 4. Search for wild pokemon, catch/collect pokemon, level up your pokemon, level up your trainer. Choose up to 6 of your pokemon to bring into battle with you. Programmed with an intuitive enemy A.I battle system. Visual battle effects using post processing and much more.  </span>
 
-              <a className="Development-Link" href='https://www.youtube.com' target="_blank">TECH-DEMO</a>
+              <a className="Development-Link" href='https://youtu.be/ZTgHRw7ms7Y' target="_blank" rel="noreferrer">DEMO</a>
 
             </div>
 
@@ -62,7 +60,7 @@ function DevelopmentWebGames() {
 
               <span className="Development-span">The game consists of a 5 by 5 grid of lights. When the game starts, a random number or a stored pattern of these lights is switched on. Pressing any of the lights will toggle it and the adjacent lights. The goal of the puzzle is to switch all the lights off, preferably in as few button presses as possible.</span>
 
-              <a className="Development-Link" href='https://www.youtube.com' target="_blank">GITHUB</a>
+              <a className="Development-Link" href='https://github.com/lucasaking/games-lights-out' target="_blank" rel="noreferrer">GITHUB</a>
 
             </div>
 
@@ -72,7 +70,7 @@ function DevelopmentWebGames() {
 
           <div className="lineBlockCard"></div>
 
-          <h1 className="content3"><a className="About-pointer" ><b className="Contact-me" onClick={() => history.push("/games")}>NEXT</b></a></h1>
+          <h1 className="content3"><Link className="About-pointer" to="/games"><b className="Contact-me">NEXT</b></Link></h1>
 
           <div className="lineBlockEnd"></div>
 

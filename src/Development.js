@@ -1,13 +1,11 @@
 import React from 'react';
-import { useHistory } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Card2 from "./cards/Card2";
 import Card3 from "./cards/Card3";
 import Card6 from "./cards/Card6";
 import "./Development.css";
 
 function Development() {
-
-  const history = useHistory();
 
   return (
     <div>
@@ -34,11 +32,11 @@ function Development() {
 
             <span className="Development-span">Speaker Box is social media platform with features akin to facebook and twitter. Create an account, create posts, follow other users, unfollow, like, unlike and much more.</span>
 
-            <a className="Development-Link" href='https://united-twitter-clone.herokuapp.com/' target="_blank">HEROKU DEPLOYMENT</a>
+            <a className="Development-Link" href='https://united-twitter-clone.herokuapp.com/' target="_blank" rel="noreferrer">HEROKU DEPLOYMENT</a>
 
             <span className="Development-span-space"></span>
 
-            <a className="Development-Link" href='https://github.com/lucasaking/warbler' target="_blank">GITHUB</a>
+            <a className="Development-Link" href='https://github.com/lucasaking/warbler' target="_blank" rel="noreferrer">GITHUB</a>
 
           </div>
 
@@ -62,9 +60,9 @@ function Development() {
 
             <span className="Development-span-underline">Microblog</span>
 
-            <span className="Development-span">Update theme by Microblog is a blogging platform. Create blogs, microblogs, comment, upvote/downvote and more.</span>
+            <span className="Development-span">Microblog is a personal blogging and social media platform platform. Available in 2 visual style themes. Create blogs, microblogs, comment, upvote/downvote and more.</span>
 
-            <a className="Development-Link" href='https://github.com/lucasaking/cybertech-microblog' target="_blank">GITHUB</a>
+            <a className="Development-Link" href='https://github.com/lucasaking/cybertech-microblog' target="_blank" rel="noreferrer">GITHUB</a>
 
           </div>
 
@@ -94,7 +92,7 @@ function Development() {
 
             <span className="Development-span">Similar features/layout to Amazon and a mock styling for demonstration. Using Stripe for purchasing. Fully functioning shopping cart, create an account, login/authorization, store front api, ability to checkout and more.</span>
 
-            <a className="Development-Link" onClick={() => history.push("/contact")}>CONTACT FOR DETAILS</a>
+            <a className="Development-Link" href='https://youtu.be/EyN3Nk67VRw' target="_blank" rel="noreferrer">DEMO</a>
 
           </div>
 
@@ -104,7 +102,7 @@ function Development() {
 
         <div className="lineBlockCard"></div>
 
-        <h1 className="content3"><a className="About-pointer" ><b className="Contact-me" onClick={() => history.push("/front-end")}>NEXT</b></a></h1>
+        <h1 className="content3"><Link className="About-pointer" to="front-end"><b className="Contact-me">NEXT</b></Link></h1>
 
         <div className="lineBlockEnd"></div>
 

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Navbar from "reactjs-navbar";
 import { useHistory } from "react-router-dom";
 import Loader from "react-loader-spinner";
@@ -20,7 +20,7 @@ import "reactjs-navbar/dist/index.css";
 
 function ReactNavbar() {
 
-  const [loading, setLoading] = useState();
+  // const [loading, setLoading] = useState();
 
   const history = useHistory();
 
@@ -28,7 +28,7 @@ function ReactNavbar() {
     <div >
       <Navbar
         loader={<Loader type="Puff" color="#D85B5B" height={25} width={25} />}
-        isLoading={loading}
+        // isLoading={loading}
         helpCallback={() => {
           alert("Is this site not responsive to your device or are you having technical issues? Email me @lucasking.developer@gmail.com");
         }}

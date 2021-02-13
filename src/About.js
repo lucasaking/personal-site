@@ -1,15 +1,13 @@
 import React from 'react';
-import { useHistory } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./About.css";
 
 function About() {
 
-  const history = useHistory();
-
   return (
     <div className="About">
 
-      <h1 className="content4"><a className="About-pointer" onClick={() => history.push("/full-stack")}><b className="content4a">DEVELOPMENT</b></a></h1>
+      <h1 className="content4"><Link className="About-pointer" to="/full-stack"><b className="content4a">PROJECTS</b></Link></h1>
 
       <h2>Preferred Languages, Libraries, Frameworks</h2>
 
@@ -65,7 +63,7 @@ function About() {
 
       </div>
 
-      <p className="About-content"><a className="About-pointer" onClick={() => history.push("/contact")}><b className="About-contact">QUESTIONS?</b></a></p>
+      <p className="About-content"><Link className="About-pointer" to="contact-form"><b className="About-contact">QUESTIONS?</b></Link></p>
     
     </div>
   )

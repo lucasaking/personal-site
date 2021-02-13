@@ -1,10 +1,8 @@
 import React from 'react'
-import { useHistory } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./Development.css";
 
 function DevelopmentBE() {
-
-  const history = useHistory();
 
   return (
     <div>
@@ -27,11 +25,11 @@ function DevelopmentBE() {
 
             <span className="Development-BE">Unit Testing/Integration Testing</span>
 
-            <span>Authorization & Authentication. Encryption. RDMs, Routes, Server and Middleware test coverage examples below</span>
+            <span>Authorization & Authentication. Encryption. RDMs, Routes, Server and Middleware complete test coverage examples below</span>
 
             <span className="Development-span-space"></span>
 
-            <a className="Development-Link" href='https://github.com/lucasaking/express-jobly-backend' target="_blank">GITHUB</a>
+            <a className="Development-Link" href='https://github.com/lucasaking/express-jobly-backend' target="_blank" rel="noreferrer">GITHUB</a>
 
           </div>
 
@@ -51,7 +49,7 @@ function DevelopmentBE() {
 
             <span className="Development-span-space"></span>
 
-            <a className="Development-Link" href='https://github.com/lucasaking/business-biztime-backend' target="_blank">GITHUB</a>
+            <a className="Development-Link" href='https://github.com/lucasaking/business-biztime-backend' target="_blank" rel="noreferrer">GITHUB</a>
 
           </div>
 
@@ -71,7 +69,7 @@ function DevelopmentBE() {
 
             <span className="Development-span-space"></span>
 
-            <a className="Development-Link" href="https://github.com/lucasaking/message.ly" target="_blank">GITHUB</a>
+            <a className="Development-Link" href="https://github.com/lucasaking/message.ly" target="_blank" rel="noreferrer">GITHUB</a>
 
           </div>
 
@@ -91,7 +89,7 @@ function DevelopmentBE() {
 
             <span className="Development-span-space"></span>
 
-            <a className="Development-Link" href='https://github.com/lucasaking/bookstore-backend' target="_blank">GITHUB</a>
+            <a className="Development-Link" href='https://github.com/lucasaking/bookstore-backend' target="_blank" rel="noreferrer">GITHUB</a>
 
           </div>
 
@@ -111,7 +109,7 @@ function DevelopmentBE() {
 
             <span className="Development-span-space"></span>
 
-            <a className="Development-Link" onClick={() => history.push("/contact")}>CONTACT ME</a>
+            <Link className="Development-Link" to="contact-form">CONTACT ME</Link>
 
           </div>
 
@@ -119,7 +117,7 @@ function DevelopmentBE() {
 
         <div className="lineBlockCard"></div>
 
-        <h1 className="content3"><a className="About-pointer" ><b className="Contact-me" onClick={() => history.push("/web-games")}>NEXT</b></a></h1>
+        <h1 className="content3"><Link className="About-pointer" to="web-games"><b className="Contact-me">NEXT</b></Link></h1>
 
         <div className="lineBlock"></div>
 

@@ -1,7 +1,8 @@
 .Development {
   /* justify-content: space-around; */
   padding-top: 4%;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   /* font-size: 150%; */
   color: white;
 }
@@ -16,7 +17,8 @@
 .Development-Title {
   border: 2px solid white;
   border-radius: 5px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: white;
   text-shadow: 2px 2px 2px black;
   /* font-size: 30px; */
@@ -41,17 +43,19 @@
 
 .Development-Link {
   text-decoration: none;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 100%;
   /* color:  rgb(245, 115, 115); */
   color: rgb(201, 201, 248);
+  cursor: pointer;
 }
 
 .Development-Link:hover {
   /* text-decoration: none; */
   size: 100%;
   text-decoration: underline;
-  color:  rgb(245, 115, 115);
+  color: rgb(245, 115, 115);
 }
 
 .Development-Language {
@@ -89,7 +93,7 @@
 }
 
 .Development-contenta {
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .Development-contenta:hover {
@@ -124,7 +128,8 @@
 .Development-span {
   display: block;
   font-size: 75%;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   /* letter-spacing: .09%; */
   padding-bottom: 1%;
 }
@@ -132,7 +137,8 @@
 .Development-span-underline {
   display: block;
   padding-bottom: 1%;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-decoration: underline;
 }
 
@@ -154,7 +160,7 @@
   margin-top: -1%;
   /* margin: 2%;
   padding: 2%; */
-    /* margin: 20%; */
+  /* margin: 20%; */
   /* padding: 5%; */
   margin-bottom: 10%;
   border-bottom: 1px solid lightgray;
@@ -202,27 +208,12 @@
   /* border-bottom: 1px solid lightgray; */
 }
 
-.lineBlockFix {
-  /* margin: 10%; */
-  inline-size: 100%;
-  /* margin-top: 10%;
-  margin-left: 5%;
-  margin-right: 10%;
-  margin-bottom: 5%; */
-  /* -webkit-line-break: after-white-space; */
-  transform: translate(50%, -50%);
-  /* margin-top: -10%; */
-  /* border-bottom: 1px solid lightgray; */
-}
-
-
 /* UNDER CONSTRUCTION */
 
 .Development-Project {
-  size:50%;
+  size: 50%;
   max-width: 45%;
   max-height: 45%;
-  /* margin-right: 50%; */
   align-self: center;
   align-content: center;
   text-align: center;
@@ -231,42 +222,23 @@
   border: 3px solid white;
   border-radius: 30px;
   padding: 1%;
-  /* font-size: smaller; */
-  /* box-shadow: 3px 3px 3px 3px rgb(127, 200, 236); */
 }
 
 .Project-1 {
   background-color: black;
-  size:50%;
+  size: 50%;
   max-width: 45%;
   max-height: 45%;
   margin-right: 50%;
-  /* margin-top: 1%; */
   overflow: hidden;
   border: 3px solid white;
   border-radius: 30px;
   padding: 1%;
-  /* font-size: smaller; */
-  box-shadow: .5px .5px .5px .5px rgb(127, 200, 236);
+  box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(127, 200, 236);
   animation: shadow-pulsate 2s infinite;
   font-size: 150%;
   /* animation: shadow-pulsate 2s infinite; */
 }
-
-/* .VFX-1 {
-  font-size: 120%;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-} */
-
-/* .VFX-2 {
-  font-size: 120%;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.VFX-3 {
-  font-size: 120%;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-} */
 
 .Project-2 {
   font-size: 150%;
@@ -276,13 +248,18 @@
   margin-left: 50%;
   border-radius: 30px;
   padding: 1%;
-  box-shadow: .5px .5px .5px .5px rgb(127, 200, 236);
+  box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(127, 200, 236);
   animation: shadow-pulsate 2s infinite;
 }
 
 @keyframes shadow-pulsate {
-  /* box-shadow: 3px 3px 3px 3px rgb(127, 200, 236); */
-    0%   { box-shadow: 1px 1px 1px 1px rgba(252, 252, 252, 0); }
-    50%  { box-shadow: 3px 3px 3px 3px rgb(218, 242, 245); }
-    100% { box-shadow: 5px 5px 5px 5px rgba(0, 255, 255, 0); }
+  0% {
+    box-shadow: 1px 1px 1px 1px rgba(252, 252, 252, 0);
+  }
+  50% {
+    box-shadow: 3px 3px 3px 3px rgb(218, 242, 245);
+  }
+  100% {
+    box-shadow: 5px 5px 5px 5px rgba(0, 255, 255, 0);
+  }
 }

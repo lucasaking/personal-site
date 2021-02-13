@@ -3,6 +3,7 @@ import { Switch, Route } from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
+import ContactForm from "./ContactForm";
 import Development from "./Development";
 import DevelopmentFE from "./DevelopmentFE";
 import DevelopmentBE from "./DevelopmentBE";
@@ -23,6 +24,10 @@ function Routes() {
 
         <Route exact path="/contact">
           <Contact />
+        </Route>
+
+        <Route exact path="/contact-form">
+          <ContactForm />
         </Route>
 
         <Route exact path="/full-stack">

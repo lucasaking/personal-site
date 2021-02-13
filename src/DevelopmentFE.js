@@ -1,11 +1,9 @@
 import React from "react";
-import { useHistory } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Card4 from "./cards/Card4";
 import "./Development.css"
 
 function DevelopmentFE() {
-
-  const history = useHistory();
 
   return (
     <div>
@@ -38,7 +36,7 @@ function DevelopmentFE() {
 
               <span className="Development-span">React App utilizing Spoonacular API. Generates a weight loss meal plan with recipes and macros for each meal, for each day of the week. Queries recipes to return appropriate Macronutrients from the API based on user bodyweight. (Hackathon- 2 day speed build)</span>
 
-              <a className="Development-Link" onClick={() => history.push("/contact")}>CONTACT ME</a>
+              <a className="Development-Link" href='https://youtu.be/EyN3Nk67VRw' target="_blank" rel="noreferrer">DEMO</a>
 
             </div>
 
@@ -48,7 +46,7 @@ function DevelopmentFE() {
 
           <div className="lineBlockCard"></div>
 
-          <h1 className="content3"><a className="About-pointer" ><b className="Contact-me" onClick={() => history.push("/back-end")}>NEXT</b></a></h1>
+          <h1 className="content3"><Link className="About-pointer" to="back-end"><b className="Contact-me">NEXT</b></Link></h1>
 
           <div className="lineBlockEnd"></div>
 
