@@ -43,7 +43,7 @@ function ContactForm() {
 
           <div className="field">
 
-            <label htmlFor="from_name">Your Name</label>
+            <label htmlFor="from_name">NAME</label>
 
             <input
               type="text"
@@ -56,7 +56,7 @@ function ContactForm() {
 
           <div className="field">
 
-            <label htmlFor="message">Message</label>
+            <label htmlFor="message">MESSAGE</label>
 
             <textarea
               cols="30"
@@ -72,7 +72,7 @@ function ContactForm() {
 
           <div className="field">
 
-            <label htmlFor="reply_to">Reply To</label>
+            <label htmlFor="reply_to">REPLY TO</label>
 
             <input
               type="text"
