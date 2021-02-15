@@ -30,7 +30,7 @@ function Development() {
 
             <span className="Development-span-underline">Social Media</span>
 
-            <span className="Development-span">Speaker Box is social media platform with features akin to facebook and twitter. Create an account, create posts, follow other users, unfollow, like, unlike and much more.</span>
+            <span className="Development-span">Speaker Box is social media platform with features akin to facebook and twitter. Create an account, create posts, follow other users, unfollow, like button, dislike button, listen to spotify while browsing your news feed and much more.</span>
 
             <a className="Development-Link" href='https://united-twitter-clone.herokuapp.com/' target="_blank" rel="noreferrer">HEROKU DEPLOYMENT</a>
 
