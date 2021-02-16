@@ -36,7 +36,7 @@ function Development() {
 
             <span className="Development-span-space"></span>
 
-            <a className="Development-Link" href='https://github.com/lucasaking/warbler' target="_blank" rel="noreferrer">GITHUB</a>
+            <a className="Development-Link" href='https://github.com/lucasaking/speakerbox-fullstack' target="_blank" rel="noreferrer">GITHUB</a>
 
           </div>
 
