@@ -1,7 +1,7 @@
 .Development {
   padding-top: 4%;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    "Lucida Sans Unicode", Geneva, monospace, sans-serif;
   color: white;
 }
 
@@ -16,7 +16,7 @@
   border: 2px solid white;
   border-radius: 5px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    "Lucida Sans Unicode", Geneva, monospace, sans-serif;
   color: white;
   text-shadow: 2px 2px 2px black;
   background-size: contain;
@@ -29,13 +29,13 @@
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
   width: 100%;
-  font-family: cursive, 'luminari', Tahoma, Arial, Helvetica, sans-serif;
+  font-family: monospace, Arial, Helvetica, sans-serif;
 }
 
 .Development-Link {
   text-decoration: none;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    "Lucida Sans Unicode", Geneva, monospace, sans-serif;
   font-size: 100%;
   color: rgb(201, 201, 248);
   cursor: pointer;
@@ -51,7 +51,7 @@
   font-size: 35px;
   color: white;
   text-shadow: 2px 2px 2px black;
-  font-family: cursive, 'luminari', Tahoma, Arial, Helvetica, sans-serif;
+  font-family: monospace, Arial, Helvetica, sans-serif;
 }
 
 .Development-BE {
@@ -140,7 +140,7 @@
   display: block;
   font-size: 75%;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    "Lucida Sans Unicode", Geneva, monospace, sans-serif;
   padding-bottom: 1%;
 }
 
@@ -148,7 +148,7 @@
   display: block;
   padding-bottom: 1%;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    "Lucida Sans Unicode", Geneva, monospace, sans-serif;
   text-decoration: underline;
 }
 
