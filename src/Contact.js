@@ -20,7 +20,9 @@ function Contact() {
 
       <div className="Contact-body">
 
-        <h1>Interact with me directly<br/><div className="Contact-email" onClick={() => history.push("/contact-form")}>lucasking.developer@gmail.com</div></h1>
+        <h1>Interact with me directly</h1><br/>
+        
+        <div className="Contact-email" onClick={() => history.push("/contact-form")}>lucasking.developer@gmail</div>
 
         <div className="Contact-resources">
 
@@ -34,7 +36,7 @@ function Contact() {
 
       <div className="Contact-github-title">
 
-        <h3>View Samples</h3>
+        <div className="Contact-samples" onClick={() => history.push("/full-stack")}>SAMPLES</div>
 
         <Link to="full-stack"><h4><img src={portfolio} className="Contact-github-logo" alt="unavailable"></img></h4></Link>
 

@@ -76,11 +76,10 @@
 }
 
 .Contact-email {
-  /* text-decoration: underline; */
+  text-decoration: none;
   color: white;
   text-shadow: 2px 2px 2px goldenrod;
-  font-size: 200%;
-  font-size: 100%;
+  font-size: 150%;
   margin-bottom: 6%;
   cursor: pointer;
   transition: all .2s ease-in-out;
@@ -89,13 +88,32 @@
 .Contact-email:hover {
   color: black;
   text-shadow: 2px 2px 2px goldenrod;
-  font-size: 170%;
+  font-size: 250%;
+  transform: scale(0.03%);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Contact-samples {
+  text-decoration: none;
+  color: white;
+  text-shadow: 2px 2px 2px goldenrod;
+  font-size: 100%;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+.Contact-samples:hover {
+  color: black;
+  text-shadow: 2px 2px 2px goldenrod;
+  font-size: 200%;
   transform: scale(0.03%);
   text-decoration: underline;
   cursor: pointer;
 }
 
 .Contact-me {
+  font-family: 'Orbitron', monospace;
   transition: all 0.2s ease-in-out;
   color: white;
   text-shadow: 1px 1px 1px rgb(114, 113, 113);
@@ -113,6 +131,10 @@
 .Contact-resources {
   display: inline-block;
   margin-bottom: 5%;
+}
+
+.Contact-samples {
+  text-decoration: none;
 }
 
 .Contact-node {

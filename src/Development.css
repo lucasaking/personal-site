@@ -221,6 +221,22 @@
   padding: 1%;
 }
 
+.Contact-me {
+  font-family: 'Orbitron', monospace;
+  transition: all 0.2s ease-in-out;
+  color: white;
+  text-shadow: 1px 1px 1px rgb(114, 113, 113);
+}
+
+.Contact-me:hover {
+  color: white;
+  text-shadow: 2px 2px 2px goldenrod;
+  font-size: 200%;
+  transform: scale(1.1);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .Project-1 {
   background-color: black;
   size: 50%;
