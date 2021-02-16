@@ -63,7 +63,7 @@
 }
 
 .Contact-name {
-  font-family: cursive;
+  font-family: cursive, 'luminari', Tahoma, Arial, Helvetica, sans-serif;
 }
 
 .Contact-body {
@@ -137,12 +137,12 @@
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
   width: 100%;
-  font-family: cursive;
+  font-family: cursive, 'luminari', Tahoma, Arial, Helvetica, sans-serif;
 }
 
 .content3 {
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
   width: 100%;
-  font-family: cursive;
+  font-family: cursive, 'luminari', Tahoma, Arial, Helvetica, sans-serif;
 }

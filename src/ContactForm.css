@@ -8,7 +8,7 @@
   text-align: center;
   font-size: 100%;
   color: white;
-  font-family: cursive;
+  font-family: cursive, 'luminari', Tahoma, Arial, Helvetica, sans-serif;
   /* position: relative;
   display: list-item; */
   /* padding-bottom: 100%; */
@@ -91,5 +91,5 @@
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
   width: 100%;
-  font-family: cursive;
+  font-family: cursive, 'luminari', Tahoma, Arial, Helvetica, sans-serif;
 }
