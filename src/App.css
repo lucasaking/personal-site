@@ -6,7 +6,7 @@
   align-content: center;
   align-items: center;
   justify-content: center;
-  font-family: monospace;
+  font-family: 'Orbitron', monospace;
   /* overflow: auto; */
   overflow: visible;
   background: url("./backgrounds/images/background.jpg") fixed;

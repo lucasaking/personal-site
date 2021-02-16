@@ -9,7 +9,7 @@ function About() {
 
       <h1 className="content4"><Link className="About-pointer" to="/full-stack"><b className="content4a">PROJECTS</b></Link></h1>
 
-      <h2>Preferred Languages, Libraries, Frameworks</h2>
+      <h2 className="About-frameworks">Preferred Languages, Libraries, Frameworks</h2>
 
       <div className="About-constraints">
 
