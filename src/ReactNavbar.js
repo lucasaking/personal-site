@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "reactjs-navbar";
 import { useHistory } from "react-router-dom";
+import "./Navigation.css"
 import Loader from "react-loader-spinner";
 import {
   faUsers,
@@ -25,7 +26,7 @@ function ReactNavbar() {
   const history = useHistory();
 
   return (
-    <div >
+    <div className="Navigation">
       <Navbar
         loader={<Loader type="Puff" color="#D85B5B" height={25} width={25} />}
         // isLoading={loading}

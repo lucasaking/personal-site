@@ -1,5 +1,9 @@
 .Navigation {
-  position: fixed;
+  /* position: fixed; */
+  /* display: flex; */
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 nav {
