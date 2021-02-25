@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useEffect } from 'react';
 import { Link } from "react-router-dom";
 import Card4 from "./cards/Card4";
 import "./Development.css"
 
 function DevelopmentFE() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, []);
 
   return (
     <div>
@@ -46,7 +50,7 @@ function DevelopmentFE() {
 
           <div className="lineBlockCard"></div>
 
-          <h1 className="content3"><Link className="About-pointer" to="back-end"><b className="Contact-me">NEXT</b></Link></h1>
+          <h1 className="content3"><Link className="About-pointer" to="back-end"><b className="Contact-me">BACK-END</b></Link></h1>
 
           <div className="lineBlockEnd"></div>
 

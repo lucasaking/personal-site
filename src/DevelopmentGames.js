@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useEffect } from 'react';
 import { Link } from "react-router-dom";
 import "./Development.css";
 import youtube from "./logos/logo-youtube.png";
 
 function DevelopmentGames() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, []);
 
   return (
     <div>

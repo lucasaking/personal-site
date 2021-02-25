@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import { Link } from "react-router-dom";
 import "./Development.css";
 
 function DevelopmentBE() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, []);
 
   return (
     <div>
@@ -117,7 +121,7 @@ function DevelopmentBE() {
 
         <div className="lineBlockCard"></div>
 
-        <h1 className="content3"><Link className="About-pointer" to="web-games"><b className="Contact-me">NEXT</b></Link></h1>
+        <h1 className="content3"><Link className="About-pointer" to="web-games"><b className="Contact-me">WEB/MOBILE GAMES</b></Link></h1>
 
         <div className="lineBlock"></div>
 

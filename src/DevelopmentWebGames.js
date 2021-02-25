@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from 'react';
 import { Link } from "react-router-dom";
 import Card from "./cards/Card";
 import Card5 from "./cards/Card5";
@@ -6,6 +6,10 @@ import github from "./logos/github-large.png";
 import "./Development.css";
 
 function DevelopmentWebGames() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, []);
 
   return (
     <div>
@@ -71,7 +75,7 @@ function DevelopmentWebGames() {
 
           <div className="lineBlockCard"></div>
 
-          <h1 className="content3"><Link className="About-pointer" to="/games"><b className="Contact-me">NEXT</b></Link></h1>
+          <h1 className="content3"><Link className="About-pointer" to="/games"><b className="Contact-me">DESKTOP GAMES</b></Link></h1>
 
           <div className="lineBlockEnd"></div>
 
