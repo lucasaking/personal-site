@@ -23,6 +23,8 @@ function DevelopmentBE() {
 
         {/* --PROJECT 1--*/}
 
+        <div className="Development-Window">
+
         <div className="Project-1">
 
           <div className="VFX-1">
@@ -124,6 +126,8 @@ function DevelopmentBE() {
         <h1 className="content3"><Link className="About-pointer" to="web-games"><b className="Contact-me">WEB/MOBILE GAMES</b></Link></h1>
 
         <div className="lineBlock"></div>
+
+      </div>
 
       </div>
 

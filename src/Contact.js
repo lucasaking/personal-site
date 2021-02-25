@@ -16,13 +16,11 @@ function Contact() {
 
       <h1 className="content3"><Link className="About-pointer" to="contact-form"><b className="Contact-me">MESSAGE ME</b></Link></h1>
 
-      {/* <div className="Contact-break"></div> */}
-
       <div className="Contact-body">
 
-        <h1>Interact with me directly</h1><br/>
+        {/* <h1>Interact with me directly</h1><br/> */}
         
-        <div className="Contact-email" onClick={() => history.push("/contact-form")}>lucasking.developer@gmail</div>
+        <div className="Contact-email" onClick={() => history.push("/contact-form")}>LUCASKING.DEVELOPER@GMAIL</div>
 
         <div className="Contact-resources">
 
@@ -30,15 +28,17 @@ function Contact() {
 
           <a href='https://www.youtube.com/playlist?list=PLSFU-aws5idp8pcSfTDLhJNsntvQf-0JP' target="_blank" rel="noreferrer"><img src={youtube} className="Contact-linkedin" alt="unavailable"></img></a>
 
+          <div className="lineBlock"></div>
+
+          <div className="Contact-samples" onClick={() => history.push("/full-stack")}>SAMPLES</div>
+
         </div>
 
       </div>
 
       <div className="Contact-github-title">
 
-        <div className="Contact-samples" onClick={() => history.push("/full-stack")}>SAMPLES</div>
-
-        <Link to="full-stack"><h4><img src={portfolio} className="Contact-github-logo" alt="unavailable"></img></h4></Link>
+        {/* <Link to="full-stack"><h4><img src={portfolio} className="Contact-github-logo" alt="unavailable"></img></h4></Link> */}
 
       </div>
 
@@ -52,7 +52,7 @@ function Contact() {
 
       <div className="Contact-github-title">
 
-        <h3>More Code on Github</h3>
+        <h3>MORE CODE ON GITHUB</h3>
 
         <a href='https://github.com/lucasaking' target="_blank" rel="noreferrer"><h4><img src={github} className="Contact-github-logo" alt="unavailable"></img></h4></a>
 

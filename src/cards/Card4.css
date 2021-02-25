@@ -28,3 +28,14 @@
 .ffront {
   background-image: url("./images/lights-out.png");
 }
+
+@media screen and (max-width: 640px) {
+  .Card4, .ffront, .fback {
+  max-width: 71%;
+  max-height: 30%; 
+  padding: 2%;
+  margin-top: 115%;
+  margin-left: 10%;
+  background-color: rgba(0, 0, 0, 0.788);
+  }
+}

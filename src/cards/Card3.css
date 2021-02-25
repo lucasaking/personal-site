@@ -1,5 +1,4 @@
 .Card3 {
-  /* border: 3px solid white; */
   background-repeat: no-repeat;
   background-size:contain;
   background-position:center;
@@ -17,7 +16,7 @@
 /* project 1 */
 .efront,
 .eback {
-  /* background-size: 100%; */
+  background-size: 100%;
 }
 
 .eback {
@@ -26,4 +25,15 @@
 
 .efront {
   background-image: url("./images/warbler.png");
+}
+
+@media screen and (max-width: 640px) {
+  .Card3, .efront, .eback {
+  max-width: 71%;
+  max-height: 30%; 
+  padding: 0%;
+  margin-top: 100%;
+  margin-left: 14%;
+  background-color: rgba(0, 0, 0, 0.788);
+  }
 }

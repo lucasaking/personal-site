@@ -7,6 +7,12 @@
   z-index: -1;
 }
 
+/* @media screen and (max-width: 640px) {
+  #myVideo {
+    size: 50%;
+  }
+} */
+
 /* Add some content at the bottom of the video/page */
 .content {
   position: fixed;

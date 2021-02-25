@@ -5,11 +5,46 @@
   color: white;
 }
 
+.Development-Window {
+  padding: 1%;
+}
+
 .Development-Body {
   color: white;
-  text-shadow: 2px 2px 2px black;
+  /* text-shadow: 2px 2px 2px goldenrod; */
   font-size: 200%;
   font-family: monospace;
+  padding: 2%;
+  color: black;
+  text-shadow: 1px 1px 1px rgba(192, 178, 141, 0.952);
+  background-color: #ffffffad;
+  /* border-radius: 2%; */
+}
+
+@media screen and (max-width: 640px) {
+  .Development-Body, .Development-Title, .Development-Language {
+  font-size: 150%;
+  border-radius: 5%;
+  border: 2px solid white;
+  /* color: black; */
+  padding: 3%;
+  background-color: black;
+  opacity: .81;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .Development-Body {
+  font-size: 80%;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgba(196, 68, 68, 0.425);
+  border-radius: 5%;
+  margin: 5%;
+  font-family: Orbitron;
+  text-shadow: 1px 1px 1px rgba(192, 178, 141, 0.952);
+  opacity: 1;
+  /* box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(127, 200, 236); */
+  }
 }
 
 .Development-Title {
@@ -20,6 +55,19 @@
   color: white;
   text-shadow: 2px 2px 2px black;
   background-size: contain;
+}
+
+@media screen and (max-width: 640px) {
+  .Development-Title {
+  font-size: 250%;
+  border: 2px solid black;
+  background-color: rgba(223, 187, 96, 0.205);
+  margin-top: 3%;
+  color: rgb(0, 0, 0);
+  font-family: Orbitron;
+  text-shadow: 1px 1px 1px rgb(255, 255, 255);
+  opacity: 1;
+  }
 }
 
 .Development-Button {
@@ -52,6 +100,22 @@
   color: white;
   text-shadow: 2px 2px 2px black;
   font-family: 'Orbitron', monospace, Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 640px) {
+  .Development-Language {
+  font-size: 150%;
+  border: 2px solid white;
+  border-radius: 5%;
+  margin: 2%;
+  font-family: Orbitron;
+  color: black;
+  text-shadow: 2px 2px 2px rgb(136, 130, 130);
+  opacity: .9;
+  color: white;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(127, 200, 236);
+  animation: shadow-pulsate 2s infinite;
+  }
 }
 
 .Development-BE {
@@ -186,14 +250,34 @@
 
 .lineBlockCard {
   max-height: 100%;
-  margin: 10%;
-  padding: 3.5%;
+  margin: 5%;
+  padding: 1%;
   border-bottom: 1px solid lightgray;
 }
 
 .lineBlockEnd {
   padding: 1%;
   padding-bottom: 4%;
+}
+
+.lineBlockSpace {
+  margin-top: 5%;
+}
+
+.lineBlockSpecial {
+  margin-top: 15%;
+}
+
+@media screen and (max-width: 640px) {
+  .lineBlockSpace {
+  margin-top: 30%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .lineBlockSpecial {
+  margin-top: 50%;
+  }
 }
 
 .lineBlockMid {
@@ -203,6 +287,12 @@
 .lineBlock {
   padding: 3%;
   padding-bottom: 2%;
+}
+
+@media screen and (max-width: 640px) {
+  .lineBlockMid, .lineBlockCard {
+  margin-top: 30%;
+  }
 }
 
 /* UNDER CONSTRUCTION */
@@ -237,6 +327,13 @@
   cursor: pointer;
 }
 
+.content3 {
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  font-family: 'Orbitron', monospace, Arial, Helvetica, sans-serif;
+}
+
 .Project-1 {
   background-color: black;
   size: 50%;
@@ -262,6 +359,16 @@
   padding: 1%;
   box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(127, 200, 236);
   animation: shadow-pulsate 2s infinite;
+}
+
+@media screen and (max-width: 640px) {
+  .Project-1, .Project-2, .Project-3 {
+  max-width: 80%;
+  max-height: 10%; 
+  padding: 2%;
+  margin: 12%;
+  font-size: 150%;
+  }
 }
 
 @keyframes shadow-pulsate {

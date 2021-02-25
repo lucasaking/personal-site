@@ -24,7 +24,7 @@ function DevelopmentFE() {
 
         {/* --PROJECT 1--*/}
 
-        <div >
+        <div className="Development-Window">
 
           <Card4 />
 

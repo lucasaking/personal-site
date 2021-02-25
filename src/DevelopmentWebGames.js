@@ -26,7 +26,7 @@ function DevelopmentWebGames() {
 
         {/* --PROJECT 1--*/}
 
-        <div >
+        <div className="Development-Window">
 
           <Card5 />
 
@@ -53,7 +53,7 @@ function DevelopmentWebGames() {
 
         {/* --PROJECT 2--*/}
 
-        <div >
+        <div className="Development-Window">
 
           <Card />
 

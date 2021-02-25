@@ -33,3 +33,24 @@
 .front {
   background-image: url("./images/lights-out.png");
 }
+
+@media screen and (max-width: 640px) {
+  .Card, .front, .back {
+  max-width: 71%;
+  max-height: 30%; 
+  padding: 2%;
+  margin-top: 110%;
+  margin-left: 11%;
+  background-color: rgba(0, 0, 0, 0.788);
+  /* max-width: 71%;
+  max-height: 30%;  */
+  /* padding: 2%;
+  margin: 12%; */
+  /* background-size: 100%; */
+  /* height: 100%;
+  width: 100%; */
+  /* margin-top: 100%; */
+  /* position: relative;
+  justify-content: space-around; */
+  }
+}

@@ -1,5 +1,4 @@
 .ContactForm {
-  /* margin-left: 40%; */
   height: 100%;
   width: 100%;
   align-content: center;
@@ -9,12 +8,7 @@
   font-size: 100%;
   color: white;
   font-family: 'Orbitron', monospace, Arial, Helvetica, sans-serif;
-  /* position: relative;
-  display: list-item; */
-  /* padding-bottom: 100%; */
 }
-
-/* .ContactForm-me {} */
 
 .ContactFormBtn {
   margin: 10px;
@@ -26,8 +20,6 @@
   box-sizing: border-box;
   border-radius: 10px;
   font-family: 'Orbitron', monospace;
-  /* color: black;
-  background-color: white; */
 }
 
 .ContactFormBtn:hover {
@@ -39,10 +31,9 @@
   color: white;
 }
 
-
 .ContactFormContent {
-  margin: 20px;
-  padding: 20px;
+  margin: 5%;
+  padding: 2%;
   display: inline-block;
   border-radius: 10px;
   text-align: center;
@@ -53,12 +44,27 @@
   box-sizing: border-box;
 }
 
+.ContactFormInfo {
+  height: 100%;
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+  display: flex table-column;
+  text-align: center;
+  margin-bottom: 2%;
+  font-size: 150%;
+  color: white;
+  font-family: 'Orbitron', monospace, Arial, Helvetica, sans-serif;
+}
+
 .alignment {
   margin-top: 2%;
   align-content: center;
   justify-content: center;
   display: flex table-column;
   text-align: center;
+  padding: 1%;
+  margin: 1%;
 }
 
 .field {
@@ -77,15 +83,6 @@
   line-height: 1.5;
   font-size: 100%;
 }
-
-/* input[type="submit"] {
-  display: block;
-  padding: 6px 30px;
-  font-size: 14px;
-  background-color: #4460AA;
-  color: #fff;
-  border: none
-} */
 
 .content3 {
   background: rgba(0, 0, 0, 0.5);

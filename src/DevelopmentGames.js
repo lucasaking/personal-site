@@ -26,7 +26,7 @@ function DevelopmentGames() {
 
       {/* --PROJECT 1--*/}
 
-      <div >
+      <div className="Development-Window">
 
         <div className="Development-Project-Desktop">
 

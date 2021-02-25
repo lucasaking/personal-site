@@ -30,9 +30,13 @@
 }
 
 .Contact-github-title {
-  color: white;
-  text-shadow: 1px 1px 1px rgb(114, 113, 113);
-  font-size: 30px;
+  font-size: 100%;
+  background-color: rgba(236, 208, 208, 0.144);
+  border-radius: 5px;
+  margin: 7%;
+  font-family: Orbitron;
+  text-shadow: 1px 1px 1px rgb(245, 223, 166);
+  opacity: 1;
 }
 
 .Contact-linkedin {
@@ -67,46 +71,69 @@
 }
 
 .Contact-body {
+  font-size: 100%;
+  /* border: 2px solid rgb(255, 255, 255); */
+  background-color: rgba(236, 208, 208, 0.144);
   border-radius: 5px;
-  background-size: contain;
-  max-height: 50%;
-  font-size: 80%;
-  color: white;
-  text-shadow: 1px 1px 1px rgb(114, 113, 113);
+  margin: 5%;
+  font-family: Orbitron;
+  padding: 1%;
+  text-shadow: 2px 2px 2px goldenrod;
+  opacity: 1;
+}
+
+@media screen and (max-width: 640px) {
+  .Contact-body {
+  font-size: 50%;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgba(236, 208, 208, 0.425);
+  border-radius: 5px;
+  margin: 5%;
+  font-family: Orbitron;
+  text-shadow: 2px 2px 2px goldenrod;
+  opacity: 1; 
+  }
 }
 
 .Contact-email {
   text-decoration: none;
-  color: white;
+  color: black;
   text-shadow: 2px 2px 2px goldenrod;
-  font-size: 150%;
+  font-size: 200%;
   margin-bottom: 6%;
+  margin-top: 6%;
   cursor: pointer;
   transition: all .2s ease-in-out;
 }
 
 .Contact-email:hover {
-  color: black;
+  color: white;
   text-shadow: 2px 2px 2px goldenrod;
   font-size: 250%;
-  /* transform: scale(0.03%); */
   text-decoration: underline;
   cursor: pointer;
 }
 
+@media screen and (max-width: 640px) {
+  .Contact-email {
+    color: black;
+  }
+}
+
 .Contact-samples {
   text-decoration: none;
-  color: white;
+  color: black;
   text-shadow: 2px 2px 2px goldenrod;
-  font-size: 120%;
+  font-size: 200%;
+  font-weight: bolder;
   cursor: pointer;
   transition: all .2s ease-in-out;
 }
 
 .Contact-samples:hover {
-  color: black;
-  text-shadow: 2px 2px 2px goldenrod;
-  font-size: 200%;
+  color: rgba(196, 68, 68, 0.425);
+  text-shadow: 2px 2px 2px white;
+  font-size: 400%;
   /* transform: scale(0.03%); */
   text-decoration: underline;
   cursor: pointer;
@@ -139,6 +166,7 @@
 
 .Contact-node {
   margin-bottom: 5%;
+  background-size: contain;
 }
 
 .Contact-break {

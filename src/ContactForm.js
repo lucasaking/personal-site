@@ -41,7 +41,7 @@ function ContactForm() {
 
       <div className="alignment">
 
-        <h1>Include your name, message & the best email to reach you at.</h1>
+        <h1 className="ContactFormInfo">Include your name, message & the best email to reach you at.</h1>
 
         <form onSubmit={sendMessage} className="ContactFormContent">
 

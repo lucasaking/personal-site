@@ -26,7 +26,7 @@ function Development() {
 
         {/* --PROJECT 1--*/}
 
-        <div >
+        <div className="Development-Window">
 
           <Card3 />
 
@@ -34,7 +34,7 @@ function Development() {
 
             <span className="Development-span-underline">Social Media</span>
 
-            <span className="Development-span">Speaker Box is social media platform with features akin to facebook and twitter. Create an account, create posts, follow other users, unfollow, like button, dislike button, listen to spotify while browsing your news feed and much more.</span>
+            <span className="Development-span">Speaker Box is social media platform with features akin to facebook and twitter. Create an account, create posts, follow other users, unfollow, like button, dislike button, listen to spotify while browsing your news feed and more.</span>
 
             <a className="Development-Link" href='https://united-twitter-clone.herokuapp.com/' target="_blank" rel="noreferrer">HEROKU</a>
 
@@ -54,7 +54,7 @@ function Development() {
 
       {/* --PROJECT 2--*/}
 
-      <div >
+      <div className="Development-Window">
 
         <Card2 />
 
@@ -64,7 +64,7 @@ function Development() {
 
             <span className="Development-span-underline">Microblog</span>
 
-            <span className="Development-span">Microblog is a personal blogging and social media platform platform. Available in 2 visual style themes. Create blogs, microblogs, comment, upvote/downvote and more.</span>
+            <span className="Development-span">Microblog is a personal blogging and social media platform. Available in 2 visual style themes. Create blogs, microblog, comment, upvote/downvote and more.</span>
 
             <a className="Development-Link" href='https://github.com/lucasaking/cybertech-microblog' target="_blank" rel="noreferrer">GITHUB</a>
 
@@ -84,7 +84,7 @@ function Development() {
 
       {/* --PROJECT 3--*/}
 
-      <div >
+      <div className="Development-Window">
 
         <Card6 />
 
@@ -103,6 +103,10 @@ function Development() {
         </div>
 
         <div className="lineBlockEnd"></div>
+
+        <div className="lineBlockSpace"></div>
+
+        <div className="lineBlockSpecial"></div>
 
         <div className="lineBlockCard"></div>
 
