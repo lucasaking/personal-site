@@ -72,7 +72,7 @@ function Development() {
 
         </div>
 
-        <div className="lineBlockFix"></div>
+        {/* <div className="lineBlockFix"></div> */}
 
       </div>
 
@@ -106,7 +106,9 @@ function Development() {
 
         <div className="lineBlockSpace"></div>
 
-        <div className="lineBlockSpecial"></div>
+        {/* <div className="lineBlockSpecial"></div> */}
+
+        <div className="lineBlockMid"></div>
 
         <div className="lineBlockCard"></div>
 

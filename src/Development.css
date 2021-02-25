@@ -21,7 +21,7 @@
   /* border-radius: 2%; */
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 645px) {
   .Development-Body, .Development-Title, .Development-Language {
   font-size: 150%;
   border-radius: 5%;
@@ -33,7 +33,7 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 645px) {
   .Development-Body {
   font-size: 80%;
   border: 2px solid rgb(0, 0, 0);
@@ -57,7 +57,7 @@
   background-size: contain;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 645px) {
   .Development-Title {
   font-size: 250%;
   border: 2px solid black;
@@ -102,7 +102,7 @@
   font-family: 'Orbitron', monospace, Arial, Helvetica, sans-serif;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 645px) {
   .Development-Language {
   font-size: 150%;
   border: 2px solid white;
@@ -268,13 +268,17 @@
   margin-top: 15%;
 }
 
-@media screen and (max-width: 640px) {
+.lineBlockSpecial2 {
+  margin-top: -20%;
+}
+
+@media screen and (max-width: 645px) {
   .lineBlockSpace {
   margin-top: 30%;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 645px) {
   .lineBlockSpecial {
   margin-top: 50%;
   }
@@ -282,6 +286,7 @@
 
 .lineBlockMid {
   padding-bottom: 6%;
+  padding-top: 6%;
 }
 
 .lineBlock {
@@ -289,7 +294,7 @@
   padding-bottom: 2%;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 645px) {
   .lineBlockMid, .lineBlockCard {
   margin-top: 30%;
   }
@@ -361,7 +366,7 @@
   animation: shadow-pulsate 2s infinite;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 645px) {
   .Project-1, .Project-2, .Project-3 {
   max-width: 80%;
   max-height: 10%; 

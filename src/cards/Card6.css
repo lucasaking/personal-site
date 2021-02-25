@@ -28,13 +28,13 @@
   background-image: url("./images/microblog1.png");
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 645px) {
   .Card6, .hfront, .hback {
   max-width: 71%;
   max-height: 30%; 
   padding: 2%;
-  margin-top: 93%;
-  margin-left: 11%;
+  margin-top: 92%;
+  margin-left: 12%;
   background-color: rgba(0, 0, 0, 0.788);
   }
 }

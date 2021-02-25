@@ -82,7 +82,7 @@
   opacity: 1;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 645px) {
   .Contact-body {
   font-size: 50%;
   border: 2px solid rgb(255, 255, 255);
@@ -114,7 +114,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 645px) {
   .Contact-email {
     color: black;
   }

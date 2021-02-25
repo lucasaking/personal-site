@@ -32,19 +32,23 @@ function DevelopmentFE() {
 
             <div className="VFX-1">
 
-              <span className="Development-span-underline">Healthy Recipe App</span>
+              <span className="Development-span-underline">Weightloss App</span>
 
               <div className="lineBlockVfx">
 
               </div>
 
-              <span className="Development-span">React App utilizing Spoonacular API. Generates a weight loss meal plan with recipes and macros for each meal, for each day of the week. Queries recipes to return appropriate Macronutrients from the API based on user bodyweight. (Hackathon- 2 day speed build)</span>
+              <span className="Development-span">Generate a customized meal plan with recipes and macros for each meal, for each day of the week. Returns recipes with the appropriate Macronutrients based on users bodyweight. Using Spoonacular API. (Hackathon- 2 day speed build)</span>
 
               <a className="Development-Link" href='https://youtu.be/EyN3Nk67VRw' target="_blank" rel="noreferrer">DEMO</a>
 
             </div>
 
           </div>
+
+          <div className="lineBlockMid"></div>
+
+          <div className="lineBlockSpecial"></div>
 
           <div className="lineBlockMid"></div>
 
@@ -60,7 +64,14 @@ function DevelopmentFE() {
 
       {/* --UNDER CONSTRUCTION--*/}
 
+      {/* <div className="lineBlockMid"></div>
+
+      <div className="lineBlockEnd"></div>
+
+      <div className="lineBlockCard"></div> */}
+
     </div>
+    
   )
 }
 

@@ -27,7 +27,7 @@
   background-image: url("./images/warbler.png");
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 645px) {
   .Card3, .efront, .eback {
   max-width: 71%;
   max-height: 30%; 
