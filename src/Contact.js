@@ -18,7 +18,7 @@ function Contact() {
 
       <div className="Contact-body">
         
-        <div className="Contact-email" onClick={() => history.push("/contact-form")}>LUCASKING.DEVELOPER@GMAIL</div>
+        <div className="Contact-email" onClick={() => history.push("/contact-form")}>SEND MESSAGE</div>
 
         <div className="Contact-resources">
 

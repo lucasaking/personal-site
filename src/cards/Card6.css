@@ -33,3 +33,15 @@
   background-color: rgba(0, 0, 0, 0.788);
   }
 }
+
+@media screen and (max-width: 768px) {
+  .hfront {
+    background-color: rgba(29, 28, 28, 0.466);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .hback {
+    background-color: transparent;
+  }
+}

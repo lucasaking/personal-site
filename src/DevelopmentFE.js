@@ -48,7 +48,7 @@ function DevelopmentFE() {
 
           <div className="lineBlockMid"></div>
 
-          <div className="lineBlockSpecial"></div>
+          {/* <div className="lineBlockSpecial"></div> */}
 
           <div className="lineBlockMid"></div>
 

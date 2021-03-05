@@ -9,7 +9,7 @@ function About() {
 
       <h1 className="content4">
 
-        <Link className="About-pointer" to="/full-stack"><b className="content4a">DEVELOPMENT</b></Link>
+        <Link className="About-pointer" to="/full-stack"><b className="content4a">PORTFOLIO</b></Link>
 
       </h1>
 

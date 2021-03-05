@@ -132,7 +132,7 @@
 .Contact-samples:hover {
   color: rgba(196, 68, 68, 0.425);
   text-shadow: 2px 2px 2px white;
-  font-size: 400%;
+  font-size: 250%;
   text-decoration: underline;
   cursor: pointer;
 }
@@ -164,7 +164,11 @@
 
 .Contact-node {
   margin-bottom: 5%;
-  background-size: contain;
+  background-size: cover;
+  background-color: black;
+  margin: 5%;
+  border: 3px solid white;
+  border-radius: 3px;
 }
 
 .Contact-break {
