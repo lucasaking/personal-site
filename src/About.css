@@ -24,7 +24,6 @@
   margin: 5%;
   font-family: Orbitron;
   color: white;
-  /* text-shadow: 1px 1px 1px lightblue; */
   opacity: 1;
   }
 }
@@ -104,7 +103,6 @@
 }
 
 .About-contact:hover {
-  /* color: rgba(223, 187, 187, 0.904); */
   color: white;
   text-shadow: 2px 2px 2px goldenrod;
   font-size: 200%;
@@ -126,7 +124,6 @@
 }
 
 .content4a:hover {
-  /* color: rgba(232, 255, 219, 0.904); */
   color: white;
   text-shadow: 2px 2px 2px goldenrod;
   font-size: 200%;
@@ -140,8 +137,6 @@
   background: rgba(43, 41, 41, 0.5);
   color: #f1f1f1;
   width: 100%;
-  color: ;
   font-family: 'Orbitron', monospace, Arial, Helvetica, sans-serif;
-  /* background-color: rgba(196, 68, 68, 0.425); */
   }
 }

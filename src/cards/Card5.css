@@ -1,9 +1,9 @@
 
 .Card5 {
-  /* border: 3px solid white; */
   background-repeat: no-repeat;
   background-size:contain;
   background-position:center;
+  background-color: rgba(0, 0, 0, 0.788);
   border-radius: 20px;
   position: absolute;
   max-width: 48%;
@@ -13,12 +13,6 @@
   cursor: pointer;
   will-change: transform, opacity;
   margin-left: 50%;
-}
-
-/* project 1 */
-.gfront,
-.gback {
-  /* background-size: 100%; */
 }
 
 .gback {

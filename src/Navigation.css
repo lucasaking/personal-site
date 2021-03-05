@@ -1,6 +1,4 @@
 .Navigation {
-  /* position: fixed; */
-  /* display: flex; */
   position: sticky;
   top: 0;
   z-index: 1;
@@ -18,7 +16,7 @@ nav {
   flex-direction: column;
 }
 
-/*
+/* EXTRAS /
 
 nav a {
   padding: 0.5em 0;
@@ -48,4 +46,6 @@ nav a:hover {
   padding: 5px;
   color: red;
   font-family: monospace;
-} */
+} 
+
+*/

@@ -7,7 +7,11 @@ function About() {
   return (
     <div className="About">
 
-      <h1 className="content4"><Link className="About-pointer" to="/full-stack"><b className="content4a">DEVELOPMENT</b></Link></h1>
+      <h1 className="content4">
+
+        <Link className="About-pointer" to="/full-stack"><b className="content4a">DEVELOPMENT</b></Link>
+
+      </h1>
 
       <h2 className="About-frameworks">Preferred Languages, Libraries, Frameworks</h2>
 
@@ -63,8 +67,10 @@ function About() {
 
       </div>
 
+      <div className="lineBlock"></div>
+
       <p className="About-content"><Link className="About-pointer" to="contact-form"><b className="About-contact">QUESTIONS?</b></Link></p>
-    
+
     </div>
   )
 }

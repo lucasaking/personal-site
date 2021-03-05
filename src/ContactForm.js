@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
 import emailjs from 'emailjs-com';
-import "./ContactForm.css"
+import "./ContactForm.css";
 
 function ContactForm() {
 

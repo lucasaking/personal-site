@@ -14,11 +14,9 @@ function Contact() {
   return (
     <div className="Contact">
 
-      <h1 className="content3"><Link className="About-pointer" to="contact-form"><b className="Contact-me">MESSAGE ME</b></Link></h1>
+      {/* <h1 className="content3"><Link className="About-pointer" to="contact-form"><b className="Contact-me">MESSAGE ME</b></Link></h1> */}
 
       <div className="Contact-body">
-
-        {/* <h1>Interact with me directly</h1><br/> */}
         
         <div className="Contact-email" onClick={() => history.push("/contact-form")}>LUCASKING.DEVELOPER@GMAIL</div>
 
@@ -30,7 +28,7 @@ function Contact() {
 
           <div className="lineBlock"></div>
 
-          <div className="Contact-samples" onClick={() => history.push("/full-stack")}>SAMPLES</div>
+          <div className="Contact-samples" onClick={() => history.push("/full-stack")}>VIEW SAMPLES</div>
 
         </div>
 
@@ -38,15 +36,7 @@ function Contact() {
 
       <div className="Contact-github-title">
 
-        {/* <Link to="full-stack"><h4><img src={portfolio} className="Contact-github-logo" alt="unavailable"></img></h4></Link> */}
-
       </div>
-
-      {/* --UNDER CONSTRUCTION--*/}
-
-      <br></br><br></br><br></br><br></br><br></br>
-
-      {/* --UNDER CONSTRUCTION--*/}
 
       <div className="Contact-node" ><img src={logo2} alt="unavailable"/></div>
 
@@ -60,7 +50,7 @@ function Contact() {
 
       {/* --UNDER CONSTRUCTION--*/}
 
-      <br></br>
+      <br></br><br></br>
 
       {/* --UNDER CONSTRUCTION--*/}
       

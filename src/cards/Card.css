@@ -1,29 +1,19 @@
 
 .Card {
-  /* border: 3px solid white; */
   background-origin: content-box;
-  /* background-repeat: no-repeat; */
-  /* background: round; */
- background-size:contain;
- background-position:center;
+  background-size:contain;
+  background-position:center;
   background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.788);
   border-radius: 20px;
   position: absolute;
   max-width: 48%;
   max-height: 48%;
   width: 100%;
   height: 60%;
-  /* margin-bottom: 20%; */
-  /* -top: 20%; */
   cursor: pointer;
   will-change: transform, opacity;
   font-size: 100%;
-}
-
-/* project 1 */
-.front,
-.back {
-  /* background-size: 100%; */
 }
 
 .back {
@@ -41,16 +31,5 @@
   padding: 2%;
   margin-top: 100%;
   margin-left: 11%;
-  background-color: rgba(0, 0, 0, 0.788);
-  /* max-width: 71%;
-  max-height: 30%;  */
-  /* padding: 2%;
-  margin: 12%; */
-  /* background-size: 100%; */
-  /* height: 100%;
-  width: 100%; */
-  /* margin-top: 100%; */
-  /* position: relative;
-  justify-content: space-around; */
   }
 }

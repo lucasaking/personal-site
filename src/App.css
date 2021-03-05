@@ -1,4 +1,5 @@
 /* APP */
+
 .App {
   color: white;
   background-color: black;
@@ -7,7 +8,6 @@
   align-items: center;
   justify-content: center;
   font-family: 'Orbitron', monospace;
-  /* overflow: auto; */
   overflow: visible;
   background: url("./backgrounds/images/background.jpg") fixed;
   background-size: cover;
@@ -15,7 +15,8 @@
 }
 
 
-/* WEBDEV EXTRAS */ 
+/* EXTRAS */ 
+
 /* #root > div {
   width: 100%;
   height: 100%;

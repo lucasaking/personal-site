@@ -7,18 +7,20 @@
   z-index: -1;
 }
 
-/* Add content at the bottom of the video/page */
+/*
+
+Add content at the bottom of the video/page 
+
+*/
 
 .content {
   position: fixed;
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
-  /* color: #f1f1f1; */
   width: 100%;
   font-family: 'Orbitron', monospace, Arial, Helvetica, sans-serif;
   color: linen;
   text-shadow: 2px 2px 2px black;
-  /* padding: 20px; */
 }
 
 .content2 {

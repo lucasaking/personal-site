@@ -54,10 +54,6 @@ function DevelopmentWebGames() {
 
         <div className="lineBlockCard"></div>
 
-        {/* <div className="lineBlockEnd"></div> */}
-
-        
-
         {/* --PROJECT 2--*/}
 
         <div className="Development-Window">

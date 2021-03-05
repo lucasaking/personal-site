@@ -72,8 +72,6 @@ function Development() {
 
         </div>
 
-        {/* <div className="lineBlockFix"></div> */}
-
       </div>
 
       <div className="lineBlockMid"></div>
@@ -106,8 +104,6 @@ function Development() {
 
         <div className="lineBlockSpace"></div>
 
-        {/* <div className="lineBlockSpecial"></div> */}
-
         <div className="lineBlockMid"></div>
 
         <div className="lineBlockCard"></div>
@@ -124,4 +120,4 @@ function Development() {
   )
 }
 
-export default Development
+export default Development;

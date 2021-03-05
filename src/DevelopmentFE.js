@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link } from "react-router-dom";
 import Card4 from "./cards/Card4";
-import "./Development.css"
+import "./Development.css";
 
 function DevelopmentFE() {
 
@@ -32,13 +32,13 @@ function DevelopmentFE() {
 
             <div className="VFX-1">
 
-              <span className="Development-span-underline">Weightloss App</span>
+              <span className="Development-span-underline">Nutrition App</span>
 
               <div className="lineBlockVfx">
 
               </div>
 
-              <span className="Development-span">Generate a customized meal plan with recipes and macros for each meal, for each day of the week. Returns recipes with the appropriate Macronutrients based on users bodyweight. Using Spoonacular API. (Hackathon- 2 day speed build)</span>
+              <span className="Development-span">Generate a customized meal plan with recipes and macros for each meal, for each day of the week. Returns the appropriate Macronutrients based on users bodyweight. Using Spoonacular API. (Hackathon- 2 day speed build)</span>
 
               <a className="Development-Link" href='https://youtu.be/EyN3Nk67VRw' target="_blank" rel="noreferrer">DEMO</a>
 

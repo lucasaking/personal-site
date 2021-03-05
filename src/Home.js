@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { useHistory } from "react-router-dom";
 import sample from './backgrounds/videos/mixkit7.mp4';
 import "./Home.css";

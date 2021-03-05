@@ -1,3 +1,5 @@
+/* AWAITING V3 UPDATE */
+
 .Development {
   padding-top: 4%;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -11,40 +13,12 @@
 
 .Development-Body {
   color: white;
-  /* text-shadow: 2px 2px 2px goldenrod; */
   font-size: 200%;
   font-family: monospace;
   padding: 2%;
   color: black;
   text-shadow: 1px 1px 1px rgba(192, 178, 141, 0.952);
   background-color: #ffffffad;
-  /* border-radius: 2%; */
-}
-
-@media screen and (max-width: 645px) {
-  .Development-Body, .Development-Title, .Development-Language {
-  font-size: 150%;
-  border-radius: 5%;
-  border: 2px solid white;
-  /* color: black; */
-  padding: 3%;
-  background-color: black;
-  opacity: .81;
-  }
-}
-
-@media screen and (max-width: 645px) {
-  .Development-Body {
-  font-size: 80%;
-  border: 2px solid rgb(0, 0, 0);
-  background-color: rgba(196, 68, 68, 0.425);
-  border-radius: 5%;
-  margin: 5%;
-  font-family: Orbitron;
-  text-shadow: 1px 1px 1px rgba(192, 178, 141, 0.952);
-  opacity: 1;
-  /* box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(127, 200, 236); */
-  }
 }
 
 .Development-Title {
@@ -55,19 +29,6 @@
   color: white;
   text-shadow: 2px 2px 2px black;
   background-size: contain;
-}
-
-@media screen and (max-width: 645px) {
-  .Development-Title {
-  font-size: 250%;
-  border: 2px solid black;
-  background-color: rgba(223, 187, 96, 0.205);
-  margin-top: 3%;
-  color: rgb(0, 0, 0);
-  font-family: Orbitron;
-  text-shadow: 1px 1px 1px rgb(255, 255, 255);
-  opacity: 1;
-  }
 }
 
 .Development-Button {
@@ -102,22 +63,6 @@
   font-family: 'Orbitron', monospace, Arial, Helvetica, sans-serif;
 }
 
-@media screen and (max-width: 645px) {
-  .Development-Language {
-  font-size: 150%;
-  border: 2px solid white;
-  border-radius: 5%;
-  margin: 2%;
-  font-family: Orbitron;
-  color: black;
-  text-shadow: 2px 2px 2px rgb(136, 130, 130);
-  opacity: .9;
-  color: white;
-  box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(127, 200, 236);
-  animation: shadow-pulsate 2s infinite;
-  }
-}
-
 .Development-BE {
   text-decoration: underline;
   display: block;
@@ -143,7 +88,6 @@
   font-size: 300%;
   width: 100%;
   size: 100%;
-  /* padding: 20px; */
 }
 
 .Development-contenta {
@@ -228,7 +172,7 @@
   width: 5%;
 }
 
-/* SPACING/TEMPORARY CLASSES */
+/* TEMPORARY EXTRAS */
 
 .lineBlockTitle {
   margin: 20%;
@@ -240,6 +184,13 @@
 .lineBlockStart {
   margin: 4%;
   border-bottom: 1px solid lightgray;
+}
+
+/* V2 EXTRA */
+
+.lineBlock {
+  padding: 3%;
+  padding-bottom: 2%;
 }
 
 .lineBlock1 {
@@ -272,32 +223,9 @@
   margin-top: -20%;
 }
 
-@media screen and (max-width: 645px) {
-  .lineBlockSpace {
-  margin-top: 30%;
-  }
-}
-
-@media screen and (max-width: 645px) {
-  .lineBlockSpecial {
-  margin-top: 50%;
-  }
-}
-
 .lineBlockMid {
   padding-bottom: 6%;
   padding-top: 6%;
-}
-
-.lineBlock {
-  padding: 3%;
-  padding-bottom: 2%;
-}
-
-@media screen and (max-width: 645px) {
-  .lineBlockMid, .lineBlockCard {
-  margin-top: 30%;
-  }
 }
 
 /* UNDER CONSTRUCTION */
@@ -366,6 +294,62 @@
   animation: shadow-pulsate 2s infinite;
 }
 
+/* Mobile */
+
+@media screen and (max-width: 645px) {
+  .Development-Body, .Development-Title, .Development-Language {
+  font-size: 150%;
+  border-radius: 5%;
+  border: 2px solid white;
+  padding: 3%;
+  background-color: black;
+  opacity: .81;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  .Development-Body {
+  font-size: 80%;
+  color: ghostwhite;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgba(196, 68, 68, 0.425);
+  border-radius: 5%;
+  margin: 5%;
+  font-family: Orbitron;
+  text-shadow: 1px 1px 1px black;
+  opacity: 1;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  .Development-Title {
+  font-size: 250%;
+  border: 2px solid black;
+  background-color: rgba(223, 187, 96, 0.205);
+  margin-top: 3%;
+  color: rgb(0, 0, 0);
+  font-family: Orbitron;
+  text-shadow: 1px 1px 1px rgb(255, 255, 255);
+  opacity: 1;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  .Development-Language {
+  font-size: 150%;
+  border: 2px solid white;
+  border-radius: 5%;
+  margin: 2%;
+  font-family: Orbitron;
+  color: black;
+  text-shadow: 2px 2px 2px rgb(136, 130, 130);
+  opacity: .9;
+  color: white;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(127, 200, 236);
+  animation: shadow-pulsate 2s infinite;
+  }
+}
+
 @media screen and (max-width: 645px) {
   .Project-1, .Project-2, .Project-3 {
   max-width: 80%;
@@ -375,6 +359,26 @@
   font-size: 150%;
   }
 }
+
+@media screen and (max-width: 645px) {
+  .lineBlockSpace {
+  margin-top: 30%;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  .lineBlockSpecial {
+  margin-top: 50%;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  .lineBlockMid, .lineBlockCard {
+  margin-top: 30%;
+  }
+}
+
+/* Effects */
 
 @keyframes shadow-pulsate {
   0% {
