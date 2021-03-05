@@ -8,7 +8,7 @@
   align-items: center;
   justify-content: center;
   font-family: 'Orbitron', monospace;
-  overflow: visible;
+  overflow: hidden;
   background: url("./backgrounds/images/background.jpg") fixed;
   background-size: cover;
   background-repeat: no-repeat;

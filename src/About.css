@@ -17,9 +17,9 @@
 
 @media screen and (max-width: 640px) {
   .About-frameworks {
-  font-size: 120%;
+  font-size: 100%;
   border: 2px solid white;
-  background-color: rgba(196, 68, 68, 0.178);
+  background-color: rgba(206, 95, 95, 0.397);
   border-radius: 5%;
   margin: 5%;
   font-family: Orbitron;

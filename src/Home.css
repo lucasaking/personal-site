@@ -7,6 +7,19 @@
   z-index: -1;
 }
 
+@media screen and (max-width: 1024px) {
+  #myVideo {
+    max-height: 100%;
+    background-color: rgba(255, 255, 255, 0.678);
+    overflow: hidden;
+    align-self: center;
+    align-content: center;
+    background: url("./backgrounds/images/background.jpg") fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
 /*
 
 Add content at the bottom of the video/page 
@@ -58,5 +71,9 @@ Add content at the bottom of the video/page
   transform: scale(1.1);
   text-decoration: underline;
   cursor: pointer;
+}
+
+.lineBlock2 {
+  padding: 3%;
 }
 
