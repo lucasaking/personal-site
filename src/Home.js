@@ -48,7 +48,7 @@ function Home() {
             <div className="face left">SQLAlchemy</div>
             <div className="face right">Bootstrap</div>
             <div className="face Zfront">Social Media</div>
-            <div className="face Zback"><img src={image6} className="Home-image"></img></div>
+            <div className="face Zback"><img src={image6} alt="unavailable" className="Home-image"></img></div>
           </div>
         </div>
 
@@ -59,7 +59,7 @@ function Home() {
             <div className="face left"></div>
             <div className="face right"></div>
             <div className="face Zfront">Nutrition App</div>
-            <div className="face Zback"><img src={image4} className="Home-image"></img></div>
+            <div className="face Zback"><img src={image4} alt="unavailable" className="Home-image"></img></div>
           </div>
         </div>
 
@@ -70,7 +70,7 @@ function Home() {
             <div className="face left">Redux</div>
             <div className="face right">Postgres</div>
             <div className="face Zfront">E-Commerce</div>
-            <div className="face Zback"><img src={image2} className="Home-image"></img></div>
+            <div className="face Zback"><img src={image2} alt="unavailable" className="Home-image"></img></div>
           </div>
         </div>
 
@@ -81,7 +81,7 @@ function Home() {
             <div className="face left"></div>
             <div className="face right"></div>
             <div className="face Zfront">Lights-Out</div>
-            <div className="face Zback"><img src={image3} className="Home-image"></img></div>
+            <div className="face Zback"><img src={image3} alt="unavailable" className="Home-image"></img></div>
           </div>
         </div>
 
@@ -92,7 +92,7 @@ function Home() {
             <div className="face left">Postgres</div>
             <div className="face right">SQL</div>
             <div className="face Zfront">Microblog</div>
-            <div className="face Zback"><img src={image1} className="Home-image"></img></div>
+            <div className="face Zback"><img src={image1} alt="unavailable" className="Home-image"></img></div>
           </div>
         </div>
 
@@ -103,7 +103,7 @@ function Home() {
             <div className="face left"></div>
             <div className="face right"></div>
             <div className="face Zfront">Pokemon Game</div>
-            <div className="face Zback"><img src={image5} className="Home-image"></img></div>
+            <div className="face Zback"><img src={image5} alt="unavailable" className="Home-image"></img></div>
           </div>
         </div>
 

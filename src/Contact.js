@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useHistory } from "react-router-dom";
 import logo2 from "./logos/logo-node.svg";
 import github from "./logos/github-large.png";
@@ -9,6 +9,10 @@ import "./Contact.css";
 function Contact() {
 
   const history = useHistory();
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, []);
 
   return (
     <div className="Contact">
