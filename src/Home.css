@@ -1,16 +1,155 @@
+.Home-body {
+  background-color: rgba(0, 0, 0, 0.534);
+  background-size: cover;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  color: white;
+  font-weight: bolder;
+  font-size: medium;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+.Home-spacing {
+  margin-bottom: 3%;
+}
+
+.Home-spacing2 {
+  margin-bottom: -10%;
+}
+
+.Home-image {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+@media screen and (max-width: 645px) {
+  .Home-image {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  }
+}
+
+.Home-title {
+  text-decoration: underline;
+}
+
+.lineCube {
+  padding-bottom: 30%;
+}
+
+h1 {
+  text-align: center;
+  /* margin-left: 0%; */
+}
+
+
+.container {
+  width: 200px;
+  height: 200px;
+  perspective: 500px;
+  margin: 100px;
+  margin-left: 43%;
+  margin-top: 25%;
+  transition: all 0.2s ease-in-out;
+}
+
+.container:hover {
+  font-size: 100%;
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 645px) {
+  .container {
+  width: 200px;
+  height: 200px;
+  perspective: 500px;
+  margin-left: 30%;
+  margin-top: 50%;
+  transform: scale(0.8);
+  font-size: 50%;
+  transition: all 0.2s ease-in-out;
+  }
+}
+
+.cube {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  transform-style: preserve-3d;
+  animation: turn 5s linear infinite;
+}
+
+.face {
+  width: 200px;
+  height: 200px;
+  background: black;
+  border: 1px solid white;
+  position: absolute;
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Orbitron;
+  font-size: 1.5rem;
+}
+
+.Zfront {
+  transform: translateZ(100px);
+}
+
+.Zback {
+  transform: translateZ(-100px) rotateY(180deg);
+}
+
+.left {
+  transform: translateX(-100px) rotateY(-90deg);
+}
+
+.right {
+  transform: translateX(100px) rotateY(90deg);
+}
+
+.top {
+  transform: translateY(-100px) rotateX(90deg);
+}
+
+.bottom {
+  transform: translateY(100px) rotateX(-90deg);
+}
+
+@keyframes turn {
+  from { transform: rotate3d(0, 0, 0, 0); }
+  to { transform: rotate3d(1, 1, 0, 360deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cube {
+    animation: none;
+    transform: rotate3d(1, 1, 0, 45deg);
+  }
+}
+
 .myVideo {
-  position: fixed;
+  /* position: fixed;
   right: 0;
   bottom: 0;
-  min-width: 100%;
-  min-height: 80%;
-  z-index: -1;
+  min-width: 50%;
+  min-height: 50%; */
+  /* z-index: -1;
+  flex: 1;
+  background-color: black;
+  background-image: url("https://media4.giphy.com/media/qGGW97Hl1alwBpiafM/giphy.gif?cid=ecf05e47x6rjllvp8yghwikkede5l36of9nnhc54wtlk8baj&rid=giphy.gif");
+  background-size: cover;
+  background-repeat: no-repeat; */
 }
 
 /*
-
 Add content at the bottom of the video/page 
-
 */
 
 .content {
@@ -24,8 +163,9 @@ Add content at the bottom of the video/page
 }
 
 .content2 {
+  margin-top: 5%;
   position: fixed;
-  top: 10;
+  top: 0;
   color: white;
   text-shadow: 2px 2px 2px black;
   background: rgba(56, 54, 54, 0.5);
