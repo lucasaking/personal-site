@@ -13,10 +13,10 @@ function Home() {
       {/** Header */}
 
       <h1 className="content2"><b className="content5" onClick={() => history.push("/contact")}>SCHEDULE MEETING</b></h1>
-
+      
       {/** Background Video */}
 
-      <video id="myVideo" autoPlay loop muted>
+      <video className="myVideo" autoPlay loop muted>
 
         <source src={sample} type='video/mp4' className="Home-mp4" />
 

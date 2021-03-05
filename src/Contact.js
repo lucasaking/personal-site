@@ -1,7 +1,6 @@
 import React from 'react';
-import { Link, useHistory } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import logo2 from "./logos/logo-node.svg";
-import portfolio from "./logos/portfoliofinal.png";
 import github from "./logos/github-large.png";
 import linkedin from "./logos/linkedin.png";
 import youtube from "./logos/logo-youtube.png";

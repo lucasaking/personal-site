@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "reactjs-navbar";
 import { useHistory } from "react-router-dom";
-import "./Navigation.css"
+import "./Navigation.css";
 import Loader from "react-loader-spinner";
 import {
   faUsers,

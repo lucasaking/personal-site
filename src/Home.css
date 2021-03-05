@@ -1,23 +1,10 @@
-#myVideo {
+.myVideo {
   position: fixed;
   right: 0;
   bottom: 0;
   min-width: 100%;
-  min-height: 100%;
+  min-height: 80%;
   z-index: -1;
-}
-
-@media screen and (max-width: 1024px) {
-  #myVideo {
-    max-height: 100%;
-    background-color: rgba(255, 255, 255, 0.678);
-    overflow: hidden;
-    align-self: center;
-    align-content: center;
-    background: url("./backgrounds/images/background.jpg") fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
 }
 
 /*
@@ -72,8 +59,3 @@ Add content at the bottom of the video/page
   text-decoration: underline;
   cursor: pointer;
 }
-
-.lineBlock2 {
-  padding: 3%;
-}
-
